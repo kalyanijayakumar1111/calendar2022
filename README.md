@@ -7,4 +7,8 @@ This is my first repository
       <title> CALENDAR by Kalyani Jayakumar using Html,CSS and Javascript </title>
       <link> 
     </link>
+  </head>
+  <body>
+  
+  </body>
 </html>
