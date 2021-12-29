@@ -1,15 +1,17 @@
 # calendar2022
 This is my first repository
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-      <meta charset = "UTF-8">
-      <title> CALENDAR by Kalyani Jayakumar using Html,CSS and Javascript </title>
-      <link> 
-    </link>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendar by Kalyani Jayakumar using html,css and javascript</title>
+
+    <link rel="stylesheet" href="calendar.css">
   </head>
   <body>
-  <div id="container">
+    
+    <div id="container">
       <div id="header">
         <div id="monthDisplay"></div>
         <div>
@@ -30,9 +32,10 @@ This is my first repository
 
       <div id="calendar"></div>
     </div>
-    <div id="newEventModal">
+
+    <div id="newEventModel">
       <h1>NEW EVENT</h1>
-      <h3> Event Title </h3>
+      <h4> Event Title </h4>
 
  <input id="eventTitleInput" placeholder="Event Title" />
 
@@ -40,8 +43,8 @@ This is my first repository
       <button id="cancelButton">CANCEL</button>
     </div>
 
-    <div id="deleteEventModal">
-      <h2>Event</h2>
+    <div id="deleteEventModel">
+      <h1>EVENT</h1>
 
       <p id="eventText"></p>
 
@@ -49,9 +52,8 @@ This is my first repository
       <button id="closeButton">CLOSE</button>
     
 </div>
-    <div id="modalBackDrop"></div>
+    <div id="modelBackDrop"></div>
 
     <script src="./calendar.js"></script>
-    
   </body>
 </html>
